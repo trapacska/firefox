@@ -17587,14 +17587,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = 43AQ936H96;
+				DEVELOPMENT_TEAM = 72SA8V3WYL;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				INFOPLIST_FILE = Tests/XCUITests/Info.plist;
 				MOZ_BUNDLE_ID = test.bitrise.ios.Fennec;
 				PRODUCT_BUNDLE_IDENTIFIER = "$(MOZ_BUNDLE_ID)";
-				PROVISIONING_PROFILE_SPECIFIER = "org.mozilla.ios.XCUITests 2021-08-12";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Tests/XCUITests/XCUITests-Bridging-Header.h";
 				TEST_TARGET_NAME = Client;
 			};
